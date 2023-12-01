@@ -20,14 +20,14 @@ Ripple Carry Adder Design
 The Ripple Carry Adder is composed of a series of full adders connected in series. Each full adder adds two input bits along with the carry from the previous stage, and the carry-out is propagated to the next stage.
 
 ## Files
-Carry_Look_Ahead_Generator.v: Verilog module for the carry-lookahead generator.
-Full_Adder.v: Verilog module for the full adder.
-Fast_Adder.v: Verilog module for the fast adder, incorporating the carry-lookahead generator and full adders.
-Fast_Adder_tb.v: Verilog testbench for the fast adder.
-Ripple_Carry_Adder.v: Verilog module for the ripple carry adder.
-Ripple_Carry_Adder_tb.v: Verilog testbench for the ripple carry adder.
-Usage
-Clone the repository: git clone https://github.com/yourusername/your-repo.git
+- Carry_Look_Ahead_Generator.v: Verilog module for the carry-lookahead generator.
+- Full_Adder.v: Verilog module for the full adder.
+- Fast_Adder.v: Verilog module for the fast adder, incorporating the carry-lookahead generator and full adders.
+- Fast_Adder_tb.v: Verilog testbench for the fast adder.
+- Ripple_Carry_Adder.v: Verilog module for the ripple carry adder.
+- Ripple_Carry_Adder_tb.v: Verilog testbench for the ripple carry adder.
+## Usage
+
 Simulate the designs using a Verilog simulator (e.g., ModelSim): vsim -do Fast_Adder_tb.do or vsim -do Ripple_Carry_Adder_tb.do
 View simulation results and waveforms.
 Testbenches
