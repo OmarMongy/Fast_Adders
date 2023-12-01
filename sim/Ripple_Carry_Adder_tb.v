@@ -37,7 +37,7 @@ end
 
 initial
 begin
-$monitor("%d + %d = %d",Inp1,Inp2,Result);
+$monitor("%d + %d = %d",Inp1,Inp2,Result,$time);
 end
 
 endmodule
